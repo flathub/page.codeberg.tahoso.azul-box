@@ -1,6 +1,6 @@
 app-id: page.codeberg.tahoso.azul-box
 runtime: org.freedesktop.Platform
-runtime-version: "25.08"
+runtime-version: "26.08"
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -33,5 +33,5 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/Tahoso/azul-box.git
-        commit: "c93dc188a4f67684429b3d7d55c2b8a3aa4a2003"
+        commit: "5327f0ce0d6ea0d9737e61a373e9d0764d9147c0"
       - generated-sources.json
